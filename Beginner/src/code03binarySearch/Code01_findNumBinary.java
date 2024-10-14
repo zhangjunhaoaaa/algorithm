@@ -27,8 +27,6 @@ public class Code01_findNumBinary {
         }
         System.out.println(success ? "Nice !" : " Fucking fucked");
 
-
-
     }
 
 
