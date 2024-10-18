@@ -1,4 +1,4 @@
-package code06binaryTree;
+package code06binaryTree1;
 
 
 //测试链接：http://leetcode.com/problems/maximum-depth-of-binary-tree

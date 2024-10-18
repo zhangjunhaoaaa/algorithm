@@ -1,4 +1,4 @@
-package code06binaryTree;
+package code06binaryTree1;
 
 import java.util.HashMap;
 //测试链接： https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/

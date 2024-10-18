@@ -1,4 +1,4 @@
-package code06binaryTree;
+package code06binaryTree1;
 
 /*二叉树的遍历*/
 public class Code04_iterating {

@@ -1,4 +1,4 @@
-package code06binaryTree;
+package code06binaryTree1;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
