@@ -1,4 +1,4 @@
-package code_exclusiveOR;
+package code03_ExclusiveOR;
 
 //异或运算概念
 public class Code01_exclusiveDescription {

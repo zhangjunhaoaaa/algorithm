@@ -1,4 +1,4 @@
-package code_exclusiveOR;
+package code03_ExclusiveOR;
 
 
 //一个数组中，有一个数出现了奇数次，其他数都出现了偶数次，请求出这个数

@@ -1,4 +1,4 @@
-package code_exclusiveOR;
+package code03_ExclusiveOR;
 
 import java.util.HashMap;
 

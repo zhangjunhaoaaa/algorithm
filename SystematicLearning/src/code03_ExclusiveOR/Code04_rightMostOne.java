@@ -1,4 +1,4 @@
-package code_exclusiveOR;
+package code03_ExclusiveOR;
 
 
 //寻找一个数最右边的1

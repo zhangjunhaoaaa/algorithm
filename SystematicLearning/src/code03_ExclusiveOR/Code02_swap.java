@@ -1,4 +1,4 @@
-package code_exclusiveOR;
+package code03_ExclusiveOR;
 
 //异或交换
 public class Code02_swap {
