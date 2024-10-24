@@ -1,4 +1,4 @@
-package code08mergeRecursion;
+package code05_MergeSort;
 
 
 //递归排序 递归方式
@@ -55,11 +55,11 @@ public class Code01_mergeSortRecursion {
             help[i++]= help[left]<help[right]?arr[left++]:arr[right++];
         }
 
+        //下述两个while只会发生一个
         //如果只剩下数组的左边
         while (left <= l) {
             help[i++]= arr[left++];
         }
-
         //如果只剩下数组的右边
         while (right <= r) {
             help[i++]= arr[right++];
