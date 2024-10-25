@@ -3,6 +3,7 @@ package code08mergeRecursion;
 //问题描述
 //假设你有一个数组，其中包含三种不同类型的元素，可以类比为红色、白色和蓝色（例如，元素分别用0、1、2表示）。
 //目标是对这个数组进行重新排序，使得所有相同类型的元素相邻，并按照红色、白色、蓝色的顺序排列。
+//详细的看 2_SystematicLearning/src/code06_MergeSortExtended/Code02_TheDutchFlagProblem.java
 public class Code03_TheDutchFlagProblem {
 
     //大于小于两个区域
