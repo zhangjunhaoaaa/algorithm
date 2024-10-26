@@ -1,10 +1,9 @@
-package code06binaryTree1;
+package code07_heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-//堆
-//详细：2_SystematicLearning/src/code07_heap/Code02_heap.java
+//堆的应用
 public class Code02_heap {
 
     public static void main(String[] args) {
@@ -22,7 +21,18 @@ public class Code02_heap {
 
 
         //创建小根堆的直接使用引用类型
+        //自定义比较器
+        //1.第一种写法
         PriorityQueue<Student> students = new PriorityQueue<>(new IdComparator() );
+        //2.第二种写法
+        students =new PriorityQueue<>((a,b)->a.id-b.id);
+        //3.第三种写法
+        students = new PriorityQueue<>((a,b)->b.id!=a.id?b.id-a.id:(a.hashCode()-b.hashCode()));
+        //主要排序条件：比较 id 字段。
+        //b.id != a.id 检查两个元素的 id 是否不同。
+        //b.id - a.id 用于根据 id 字段进行降序排序（b.id 减 a.id，这样 id 较大的元素会排在前面）。
+        //次要排序条件：如果 id 相同，则根据 hashCode 进行排序。
+        //(a.hashCode() - b.hashCode()) 通过元素的 hashCode 字段进行升序排序。
         Student student0 = new Student(1, "1", 1);
         Student student1 = new Student(2, "2", 2);
         Student student2 = new Student(3, "3", 3);

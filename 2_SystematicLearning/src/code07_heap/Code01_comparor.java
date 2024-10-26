@@ -1,9 +1,14 @@
-package code06binaryTree1;
+package code07_heap;
 
 import java.util.Arrays;
 import java.util.Comparator;
+
+
 //比较器
-//详细：2_SystematicLearning/src/code07_heap/Code01_comparor.java
+//1.比较器的实质就是重载比较运算符
+//2.比较器可以很好的应用在特殊标准的排序上
+//3.比较器可以很好的应用在特殊标准排序的结构上
+//4.写代码变得异常容易，还用于范性编程
 public class Code01_comparor {
 
 
@@ -30,6 +35,7 @@ public class Code01_comparor {
 
 
     //比较器
+    //自己规定了如何比大小
     public static class IdComparator implements Comparator<Student> {
 
         //如果结果为负数，则 1 排在前
