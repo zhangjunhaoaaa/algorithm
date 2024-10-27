@@ -1,4 +1,4 @@
-package code07_heap;
+package code07_Heap;
 
 //堆排序
 //时间复杂度 O(N*logN)

@@ -1,4 +1,4 @@
-package code07_heap;
+package code07_Heap;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
