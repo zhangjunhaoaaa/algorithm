@@ -1,4 +1,4 @@
-package code11_List_BinaryTree;
+package code11_List_BinaryTree1;
 
 //常见面试题：环状链表「List：top2 hard」
 //给定两个可能有环也可能无环的单链表，头节点head1和head2，
