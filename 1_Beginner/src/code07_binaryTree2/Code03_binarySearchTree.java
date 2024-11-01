@@ -8,7 +8,7 @@ package code07_binaryTree2;
 //4.左右子树都是二叉搜索树：左子树和右子树本身也必须是二叉搜索树。
 
 //对于二叉搜索树，进行中序遍历（In-order Traversal）可以得到一个从小到大的有序序列。中序遍历的顺序是：左子树 -> 根节点 -> 右子树。
-
+//详细的看：2_SystematicLearning/src/code13_BasicAlgorithmsAndRecursiveBinaryTrees/Code03_SearchBinaryTree.java
 //测试链接：http://leetcode.com/problems/validate-binary-search-tree
 public class Code03_binarySearchTree {
 
