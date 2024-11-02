@@ -1,4 +1,4 @@
-package code13_BasicAlgorithmsAndRecursiveBinaryTrees;
+package code13_InfoBinaryTrees1;
 
 public class Code07_Summary {
 

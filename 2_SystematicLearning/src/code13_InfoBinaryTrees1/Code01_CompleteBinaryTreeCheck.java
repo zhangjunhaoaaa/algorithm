@@ -1,7 +1,5 @@
-package code13_BasicAlgorithmsAndRecursiveBinaryTrees;
+package code13_InfoBinaryTrees1;
 
-
-import code12_BinaryTree2.Code01_levelTravel;
 
 import java.util.LinkedList;
 

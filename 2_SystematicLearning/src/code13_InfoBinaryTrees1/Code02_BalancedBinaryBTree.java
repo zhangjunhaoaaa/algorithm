@@ -1,4 +1,4 @@
-package code13_BasicAlgorithmsAndRecursiveBinaryTrees;
+package code13_InfoBinaryTrees1;
 
 ///判断是否是平衡二叉树
 /// 判断一棵树是否是平衡二叉树（又称 AVL 树）的基本原则是：对于树中的每个节点，其左子树和右子树的高度差不超过 1，并且每个子树也是平衡的。
