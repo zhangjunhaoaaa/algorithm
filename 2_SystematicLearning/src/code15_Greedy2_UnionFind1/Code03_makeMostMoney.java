@@ -1,4 +1,4 @@
-package code15_Greedy2_UnionFind;
+package code15_Greedy2_UnionFind1;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

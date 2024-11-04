@@ -1,4 +1,4 @@
-package code15_Greedy2_UnionFind;
+package code15_Greedy2_UnionFind1;
 
 
 import java.util.HashMap;
@@ -45,6 +45,9 @@ public class Code05_UnionFind {
         /*
          * 给你一个节点，返回该节点的最后父节点「代表节点」
          * */
+        /// 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟
+        /// 路径压缩：findFather被调用了 O(N)次,那查询的时间复杂度就是O(1)
+        /// 算法结构导论 「二章 第23页 开始 四十页的证明，上述是结论，一定要记住」
         public Node<V> findFather(Node<V> node) {
             Stack<Node<V>> stack = new Stack<>();
             while (node != parents.get(node)) {
