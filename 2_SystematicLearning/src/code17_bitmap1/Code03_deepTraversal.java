@@ -1,4 +1,4 @@
-package code17_bitmap;
+package code17_bitmap1;
 
 import java.util.HashSet;
 import java.util.Stack;

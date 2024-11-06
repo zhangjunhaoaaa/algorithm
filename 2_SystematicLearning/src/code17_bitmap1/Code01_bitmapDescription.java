@@ -1,4 +1,4 @@
-package code17_bitmap;
+package code17_bitmap1;
 
 /// 图的说明
 public class Code01_bitmapDescription {
