@@ -1,4 +1,4 @@
-package code20_BFRAndDP02;
+package code20_BFRAndDP_02;
 
 
 ///0-1 背包问题的动态规划解法

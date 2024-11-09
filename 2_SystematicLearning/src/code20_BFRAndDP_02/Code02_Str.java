@@ -1,4 +1,4 @@
-package code20_BFRAndDP02;
+package code20_BFRAndDP_02;
 
 /// 规定1和A对应，2和B对应，3和C对应...26和Z对应
 /// 那么一个数字字符串比如“111” 就可以转化为：“AAA”，“KA”，“AK”
