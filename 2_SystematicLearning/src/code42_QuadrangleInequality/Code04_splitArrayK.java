@@ -35,7 +35,7 @@ public class Code04_splitArrayK {
     }
 
 
-    /// 2.优化后的动态规划「有错，但是是思路是对的」。时间复杂度是O(N*K)
+    /// 2.优化后的动态规划「有错，但是是思路是对的」 「看code04_改」
     public static int splitArray2(int[] nums, int K) {
         int N = nums.length;
         int[] sum = new int[N + 1];
@@ -106,7 +106,7 @@ public class Code04_splitArrayK {
     }
 
 
-    /// 使用二分法，最优解 「前提是 sum 在 2的64次方内」
+    /// 使用二分法，最优解
     // 时间复杂度O(n * log(sum))，额外空间复杂度O(1)
     public static int splitArray3(int[] nums, int k) {
         long sum = 0;
